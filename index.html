@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fil">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Hibla ng Pag-asa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Great+Vibes&family=Pinyon+Script&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="#home">
+      <img class="mark" alt="Hibla ng Pag-asa logo" src="img/01-logo-mark.jpg">
+      <img class="wmi" alt="Hibla ng Pag-asa" src="img/02-logo-wordmark-header.jpg">
+    </a>
+    <button id="burger" aria-label="Menu">☰</button>
+    <nav id="nav">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#programs">Programs</a>
+      <a href="#involved">Get Involved</a>
+      <a href="#stories">Stories</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="btn" data-open="donate">♥ Donate Now</button>
+  </header>
+
+  <div class="hero" id="home">
+    <div>
+      <h1 class="wmimg">
+        <img class="wmh" alt="Hibla ng Pag-asa — Sama-samang naghahabi ng mas maliwanag na bukas." src="img/03-hero-heading-wordmark.jpg">
+      </h1>
+      <p>Isang komunidad na nagkakaisa upang magbahagi, magtulungan, at magbigay ng pag-asa sa mga nangangailangan.</p>
+      <div class="cta">
+        <button class="btn" data-open="donate">♥ Mag-Donate</button>
+        <button class="btn green" data-open="volunteer">👥 Mag-Volunteer</button>
+      </div>
+    </div>
+    <div class="photo">
+      <img src="img/04-hero-photo-feeding.jpg" alt="Feeding program ng Hibla ng Pag-asa">
+      <span class="q script">Munting Gawa,<br>Malaking Pag-asa ♡</span>
+    </div>
+  </div>
+
+  <div class="quick" id="involved">
+    <button class="qc" data-open="donate">
+      <div class="ic ic-red">🤲</div>
+      <div>
+        <h3>Mag-Donate</h3>
+        <p>Tumulong sa ating mga kapatid na nangangailangan.</p>
+      </div>
+    </button>
+    <button class="qc" data-open="volunteer">
+      <div class="ic ic-green">👥</div>
+      <div>
+        <h3>Mag-Volunteer</h3>
+        <p>Ibahagi ang iyong oras at kakayahan.</p>
+      </div>
+    </button>
+    <a class="qc" href="#programs">
+      <div class="ic ic-orange">🧡</div>
+      <div>
+        <h3>Mga Programang Pangkomunidad</h3>
+        <p>Makilahok sa aming mga gawain at proyekto.</p>
+      </div>
+    </a>
+    <a class="qc" href="#stories">
+      <div class="ic ic-blue">📖</div>
+      <div>
+        <h3>Mga Kwento ng Pag-asa</h3>
+        <p>Tunay na kuwento ng kabutihan at pagbabago.</p>
+      </div>
+    </a>
+  </div>
+
+  <section id="programs">
+    <div class="title">
+      <h2>🌿 Our Programs 🌿</h2>
+      <p>Iba't ibang paraan upang magbigay ng tulong at pag-asa.</p>
+    </div>
+    <div class="grid">
+      <div class="prog" data-prog="Feeding Program">
+        <div class="pic">
+          <img class="pos-30" src="img/05-program-feeding.jpg" alt="Feeding Program">
+        </div>
+        <h3>🍴 Feeding Program</h3>
+        <p>Mga food pack para sa pamilyang gutom.</p>
+      </div>
+      <div class="prog" data-prog="Education Support">
+        <div class="pic">
+          <img class="pos-40" src="img/06-program-education.jpg" alt="Education Support">
+        </div>
+        <h3>🎓 Education Support</h3>
+        <p>Gamit at tulong pang-eskwela para sa mga bata.</p>
+      </div>
+      <div class="prog" data-prog="Community Outreach">
+        <div class="pic">
+          <img src="img/07-program-outreach.jpg" alt="Community Outreach">
+        </div>
+        <h3>🌿 Community Outreach</h3>
+        <p>Pagtatanim at pagtulong sa kapitbahayan.</p>
+      </div>
+      <div class="prog" data-prog="Relief Operations">
+        <div class="pic">
+          <img class="pos-40" src="img/08-program-relief.jpg" alt="Relief Operations">
+        </div>
+        <h3>👕 Relief Operations</h3>
+        <p>Damit, pagkain at gamit para sa nasalanta.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="title">
+      <h2>About Us</h2>
+      <p>Sama-samang naghahabi ng mas maliwanag na bukas.</p>
+    </div>
+    <img class="full" alt="Hibla ng Pag-asa — Sama-samang naghahabi ng mas maliwanag na bukas" src="img/09-logo-full.jpg">
+    <div class="impact">
+      <div>
+        <b data-n="12400">0</b>
+        Food packs
+      </div>
+      <div>
+        <b data-n="3200">0</b>
+        Batang natulungan
+      </div>
+      <div>
+        <b data-n="860">0</b>
+        Volunteers
+      </div>
+      <div>
+        <b data-n="45">0</b>
+        Komunidad
+      </div>
+    </div>
+  </section>
+
+  <section id="stories" class="stories">
+    <div class="title">
+      <h2>Mga Kwento ng Pag-asa</h2>
+    </div>
+    <blockquote id="quote"></blockquote>
+  </section>
+
+  <section id="news">
+    <div class="title">
+      <h2>News</h2>
+      <p>Mga balita at update mula sa aming komunidad.</p>
+    </div>
+    <div class="grid">
+      <div class="prog">
+        <h3>Feeding drive sa Taguig</h3>
+        <p>Mahigit 500 pamilya ang nakatanggap ng food packs ngayong buwan.</p>
+      </div>
+      <div class="prog">
+        <h3>Back-to-school kits</h3>
+        <p>Nagbigay kami ng bag at gamit sa 300 estudyante.</p>
+      </div>
+      <div class="prog">
+        <h3>Bagong volunteers</h3>
+        <p>Salamat sa 50 bagong kasamang sumali ngayong Oktubre.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="title">
+      <h2>Contact</h2>
+      <p>May tanong o mungkahi? Sumulat sa amin.</p>
+    </div>
+    <form class="contact" id="cform">
+      <input name="n" placeholder="Pangalan" required>
+      <input name="e" type="email" placeholder="Email" required>
+      <textarea name="m" rows="4" placeholder="Mensahe" required></textarea>
+      <button class="btn" type="submit">Ipadala</button>
+      <div class="ok" id="cok"></div>
+    </form>
+  </section>
+
+  <footer>© 2026 Hibla ng Pag-asa · Munting Gawa, Malaking Pag-asa ♡</footer>
+
+  <div class="modal" id="donate">
+    <div class="box">
+      <button class="x" data-close>×</button>
+      <h3>♥ Mag-Donate</h3>
+      <div class="amts">
+        <button data-a="100">₱100</button>
+        <button data-a="500" class="sel">₱500</button>
+        <button data-a="1000">₱1,000</button>
+        <button data-a="5000">₱5,000</button>
+      </div>
+      <input id="damt" type="number" min="1" placeholder="Ibang halaga (₱)" value="500">
+      <input id="dname" placeholder="Pangalan">
+      <select id="dprog">
+        <option>Feeding Program</option>
+        <option>Education Support</option>
+        <option>Community Outreach</option>
+        <option>Relief Operations</option>
+      </select>
+      <button class="btn" id="dgo">Ipadala ang Donasyon</button>
+      <div class="ok" id="dok"></div>
+    </div>
+  </div>
+
+  <div class="modal" id="volunteer">
+    <div class="box">
+      <button class="x" data-close>×</button>
+      <h3>👥 Mag-Volunteer</h3>
+      <input id="vname" placeholder="Pangalan">
+      <input id="vmail" type="email" placeholder="Email">
+      <select id="vprog">
+        <option>Feeding Program</option>
+        <option>Education Support</option>
+        <option>Community Outreach</option>
+        <option>Relief Operations</option>
+      </select>
+      <button class="btn green" id="vgo">Mag-sign up</button>
+      <div class="ok" id="vok"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

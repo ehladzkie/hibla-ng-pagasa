@@ -1,2 +1,2 @@
 # hibla-ng-pagasa
-ITC122_2026 Group Project
+Introduction to Web Design Group 1
